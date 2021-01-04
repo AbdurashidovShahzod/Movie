@@ -24,6 +24,7 @@ class DemoAdapter1(var list: List<DemoMovie>) : RecyclerView.Adapter<DemoAdapter
             view.title.text = movie.title
             view.view.text = movie.view
             view.releaseData.text = movie.releaseData
+
             Glide.with(view.context)
                 .load(list[position].image)
                 .into(view.findViewById(R.id.imageDemo))
