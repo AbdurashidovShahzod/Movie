@@ -26,21 +26,21 @@ class SecondActivity : AppCompatActivity() {
         list.add(
             IRecycle(
                 "Automative",
-                R.drawable.ic_pages,
+                R.drawable.ic_car,
                 R.color.a1
             )
         )
         list.add(
             IRecycle(
                 "Batteries",
-                R.drawable.ic_pages,
+                R.drawable.ic_battery_charge,
                 R.color.a2
             )
         )
         list.add(
             IRecycle(
                 "Electronics",
-                R.drawable.ic_pages,
+                R.drawable.ic_repair_tools,
                 R.color.a3
             )
         )
