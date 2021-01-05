@@ -1,3 +1,5 @@
 package uz.unzosoft.movie.models
 
-data class IRecycle(val title: String, val imageIcon: String, val backColor: Int)
+import android.graphics.drawable.Drawable
+
+data class IRecycle(val title: String, val imageIcon: Int, val backColor: Int)
