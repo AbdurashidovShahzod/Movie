@@ -26,10 +26,11 @@ class ThreeActivity : AppCompatActivity() {
     private fun initData() {
         list.add(GirlBook("Coffee", R.drawable.girlbook4))
         list.add(GirlBook("Beautiful", R.drawable.girlbook5))
+        list.add(GirlBook("Girl book", R.drawable.girlbook3))
         list.add(GirlBook("Harry", R.drawable.girlbook6))
         list.add(GirlBook("Work girl", R.drawable.girlbook))
         list.add(GirlBook("Marketing", R.drawable.girlbook2))
-        list.add(GirlBook("Girl book", R.drawable.girlbook3))
+
 
     }
 }
