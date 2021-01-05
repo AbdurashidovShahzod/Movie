@@ -37,73 +37,74 @@ class SecondActivity : AppCompatActivity() {
                 R.color.a2
             )
         )
+
         list.add(
             IRecycle(
-                "Electronics",
+                "Construction",
                 R.drawable.ic_repair_tools,
                 R.color.a3
             )
         )
         list.add(
             IRecycle(
+                "Electronics",
+                R.drawable.ic_power,
+                R.color.a4
+            )
+        )
+        list.add(
+            IRecycle(
                 "Garden",
                 R.drawable.ic_growth,
-                R.color.a4
+                R.color.a5
             )
         )
         list.add(
             IRecycle(
                 "Glass",
                 R.drawable.ic_water,
-                R.color.a5
+                R.color.a6
             )
         )
         list.add(
             IRecycle(
                 "Hazardous",
                 R.drawable.ic_hazard_sign,
-                R.color.a6
+                R.color.a7
             )
         )
         list.add(
             IRecycle(
                 "Household",
                 R.drawable.ic_home,
-                R.color.a7
+                R.color.a8
             )
         )
         list.add(
             IRecycle(
                 "Metal",
                 R.drawable.ic_beam,
-                R.color.a8
+                R.color.a9
             )
         )
         list.add(
             IRecycle(
                 "Paint",
                 R.drawable.ic_paint_bucket,
-                R.color.a9
+                R.color.a10
             )
         )
         list.add(
             IRecycle(
                 "Paper",
                 R.drawable.ic_document,
-                R.color.a10
+                R.color.a11
             )
         )
         list.add(
             IRecycle(
                 "Plastic",
                 R.drawable.ic_plastic_bottle,
-                R.color.a11
-            )
-        )
-        list.add(
-            IRecycle(
-                "Construction",
-                R.drawable.ic_pages,
                 R.color.a12
             )
         )
@@ -111,7 +112,7 @@ class SecondActivity : AppCompatActivity() {
             IRecycle(
                 "Construction",
                 R.drawable.ic_pages,
-                R.color.a12
+                R.color.a3
             )
         )
     }
