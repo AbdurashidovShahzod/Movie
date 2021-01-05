@@ -48,7 +48,7 @@ class SecondActivity : AppCompatActivity() {
         list.add(
             IRecycle(
                 "Electronics",
-                R.drawable.ic_power,
+                R.drawable.ic_power_button,
                 R.color.a4
             )
         )
@@ -69,7 +69,7 @@ class SecondActivity : AppCompatActivity() {
         list.add(
             IRecycle(
                 "Hazardous",
-                R.drawable.ic_hazard_sign,
+                R.drawable.ic_warning,
                 R.color.a7
             )
         )
@@ -108,12 +108,6 @@ class SecondActivity : AppCompatActivity() {
                 R.color.a12
             )
         )
-        list.add(
-            IRecycle(
-                "Construction",
-                R.drawable.ic_pages,
-                R.color.a3
-            )
-        )
+
     }
 }
