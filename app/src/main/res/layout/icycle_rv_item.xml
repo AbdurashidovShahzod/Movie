@@ -14,12 +14,12 @@
 
         <ImageView
             android:id="@+id/imageIcon"
-            android:layout_width="80dp"
-            android:layout_height="75dp"
-            android:scaleType="centerCrop"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
             android:src="@drawable/ic_launcher_background" />
 
         <TextView
+            android:layout_marginTop="4dp"
             android:id="@+id/iRecycleTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

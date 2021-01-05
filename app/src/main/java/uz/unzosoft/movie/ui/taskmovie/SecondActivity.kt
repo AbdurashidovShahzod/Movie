@@ -47,56 +47,56 @@ class SecondActivity : AppCompatActivity() {
         list.add(
             IRecycle(
                 "Garden",
-                R.drawable.ic_pages,
+                R.drawable.ic_growth,
                 R.color.a4
             )
         )
         list.add(
             IRecycle(
                 "Glass",
-                R.drawable.ic_pages,
+                R.drawable.ic_water,
                 R.color.a5
             )
         )
         list.add(
             IRecycle(
                 "Hazardous",
-                R.drawable.ic_pages,
+                R.drawable.ic_hazard_sign,
                 R.color.a6
             )
         )
         list.add(
             IRecycle(
                 "Household",
-                R.drawable.ic_pages,
+                R.drawable.ic_home,
                 R.color.a7
             )
         )
         list.add(
             IRecycle(
                 "Metal",
-                R.drawable.ic_pages,
+                R.drawable.ic_beam,
                 R.color.a8
             )
         )
         list.add(
             IRecycle(
                 "Paint",
-                R.drawable.ic_pages,
+                R.drawable.ic_paint_bucket,
                 R.color.a9
             )
         )
         list.add(
             IRecycle(
                 "Paper",
-                R.drawable.ic_pages,
+                R.drawable.ic_document,
                 R.color.a10
             )
         )
         list.add(
             IRecycle(
                 "Plastic",
-                R.drawable.ic_pages,
+                R.drawable.ic_plastic_bottle,
                 R.color.a11
             )
         )
