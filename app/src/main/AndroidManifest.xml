@@ -12,17 +12,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Movie">
-        <activity android:name=".ui.taskmovie.ThreeActivity">
+        <activity android:name=".ui.taskmovie.movie.EditMovieActivity"></activity>
+        <activity android:name=".ui.taskmovie.movie.DescriptionActivity" />
+        <activity android:name=".ui.taskmovie.movie.AddMovieActivity" />
+        <activity android:name=".ui.taskmovie.movie.MoviesActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.taskmovie.SecondActivity">
-
-        </activity>
-        <activity android:name=".ui.taskmovie.FirstActivity"></activity>
+        <activity android:name=".ui.taskmovie.task.ThreeActivity" />
+        <activity android:name=".ui.taskmovie.task.SecondActivity" />
+        <activity android:name=".ui.taskmovie.task.FirstActivity" />
         <activity android:name=".MainActivity" />
 
         <meta-data

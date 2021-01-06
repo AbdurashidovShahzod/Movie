@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.taskmovie.task.SecondActivity">
+    tools:context=".ui.taskmovie.movie.MoviesActivity">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide1"
@@ -23,41 +23,28 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@color/toolbar">
+            android:background="#66D6EF">
 
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_marginRight="5dp"
-                android:foregroundGravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_pages"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintRight_toLeftOf="@id/irec"
-                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/irec"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="iRecycle"
+                android:layout_marginLeft="15dp"
+                android:text="Movie"
                 android:textColor="@color/white"
-                android:textSize="25sp"
+                android:textSize="21sp"
                 android:textStyle="normal"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
 
             <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
+                android:id="@+id/addMovie"
+                android:layout_width="24dp"
+                android:layout_height="16dp"
                 android:layout_marginEnd="5dp"
-                android:foregroundGravity="center"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_search"
+                android:src="@drawable/ic_add_b"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -65,13 +52,12 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvCycle"
+        android:id="@+id/rvMovie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardView"
-        app:spanCount="3" />
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

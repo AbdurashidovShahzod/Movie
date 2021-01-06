@@ -31,6 +31,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
 }
 
 dependencies {
@@ -45,7 +46,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 
-
     /**
      * Glide
      */
@@ -56,5 +56,16 @@ dependencies {
      * round image
      */
     compile 'com.makeramen:roundedimageview:2.3.0'
+
+    /**
+     * Gson
+     */
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+
+    /**
+     * Tasty toast
+     */
+    implementation 'com.sdsmdg.tastytoast:tastytoast:0.1.1'
 
 }

@@ -1,4 +1,4 @@
-package uz.unzosoft.movie.ui.taskmovie
+package uz.unzosoft.movie.ui.taskmovie.task
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

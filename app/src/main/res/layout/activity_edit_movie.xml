@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.taskmovie.movie.EditMovieActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardAllList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/guide_line1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#66D6EF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="35dp"
+                android:gravity="left|center"
+                android:text="Add Movie"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="normal" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <EditText
+        android:id="@+id/nameMovieEdit"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_shape"
+        android:gravity="left|center"
+        android:hint="Movie name"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@id/guide_line2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cardAllList" />
+
+    <EditText
+        android:id="@+id/authorsMovieEdit"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_shape"
+        android:gravity="left|center"
+        android:hint="Movie authors"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@id/aboutMovieEdit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameMovieEdit" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <EditText
+        android:id="@+id/aboutMovieEdit"
+        android:layout_width="330dp"
+        android:layout_height="235dp"
+        android:background="@drawable/edit_shape"
+        android:gravity="left|top"
+        android:hint="About movie"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@id/dataMovieEdit"
+        app:layout_constraintBottom_toTopOf="@id/guide_line3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guide_line4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <EditText
+        android:id="@+id/dataMovieEdit"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:background="@drawable/edit_shape"
+        android:gravity="left|top"
+        android:hint="Movie data"
+        android:padding="18sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@id/guide_line4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guide_line3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/editBtn1"
+        android:layout_width="136dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/fast_btn_shape"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@id/dataMovieEdit"
+        app:layout_constraintTop_toBottomOf="@id/guide_line4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
